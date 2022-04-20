@@ -1,4 +1,4 @@
-<!-- public/index.html -->
+<!-- source/index.html -->
 <!-- Home page of the website -->
 
 <html>
@@ -9,12 +9,12 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-		<!-- Load the fonts - Poppins -->
+		<!-- Load the fonts -->
 		<link
 			href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
 			rel="stylesheet"
 		/>
-		<!-- Import the CSS -->
+		<!-- Import the generated CSS -->
 		<link href="/styles/main.css" rel="stylesheet" />
 
 		<!-- Make the page scroll smoothly -->
@@ -28,10 +28,10 @@
 		<div class="relative bg-white overflow-hidden">
 			<div class="max-w-7xl mx-auto">
 				<div
-					class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32"
+					class="relative z-10 pb-4 bg-white sm:pb-8 md:pb-10 lg:max-w-2xl lg:w-full lg:pb-14 xl:pb-16"
 				>
 					<svg
-						class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2"
+						class="block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2"
 						fill="currentColor"
 						viewBox="0 0 100 100"
 						preserveAspectRatio="none"
@@ -40,19 +40,24 @@
 						<polygon points="50,0 100,0 50,100 0,100" />
 					</svg>
 
-					<div class="relative pt-6 px-4 sm:px-6 lg:px-8"></div>
+					<div class="relative pt-1 px-4 sm:px-6 lg:px-8"></div>
 
 					<main
-						class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"
+						class="mt-2 mx-auto max-w-7xl px-4 sm:mt-2 sm:px-6 md:mt-3 lg:mt-4 lg:px-8 xl:mt-5"
 					>
 						<div class="sm:text-center lg:text-left">
+							<section
+								class="hero container max-w-screen-lg mx-auto flex sm:justify-center lg:justify-start"
+							>
+								<img src="assets/logo.png" alt="Logo" class="sm:h-48 w-48" />
+							</section>
 							<h1
 								class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"
 							>
 								<span class="block xl:inline">Experience the wonders of</span>
-								<span class="block text-green-600 xl:inline"
-									>Kerala's ancient art forms</span
-								>
+								<span class="block text-green-600 xl:inline">
+									Kerala's ancient art forms
+								</span>
 							</h1>
 							<p
 								class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
@@ -68,7 +73,6 @@
 								<div class="rounded-md shadow">
 									<a
 										href="#book-now"
-										onclick="document.getElementById('book-now').scrollIntoView()"
 										class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-600 hover:bg-green-700 md:py-4 md:text-lg md:px-10"
 									>
 										Book Now
@@ -91,7 +95,7 @@
 				<img
 					class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
 					src="/assets/kathakali-cover.jpg"
-					alt="Kathakali"
+					alt="Kathakali Dancer"
 				/>
 			</div>
 		</div>
@@ -165,7 +169,6 @@
 						>
 							<img
 								src="/assets/classical-dance.jpg"
-								alt="Classical Dance"
 								class="w-full h-full object-center object-cover lg:w-full lg:h-full"
 							/>
 						</div>
@@ -211,17 +214,37 @@
 				</div>
 			</div>
 		</div>
+
 		<div class="bg-white justify-center">
 			<div
 				class="max-w-2xl mx-auto py-2 px-4 sm:py-4 sm:px-6 lg:max-w-7xl lg:px-8"
 			>
 				<div
-					id="contact-us"
+					id="reviews"
 					class="mt-1 text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-4xl"
+				>
+					<span class="block xl:inline">Our</span>
+					<span class="block text-green-600 xl:inline">Reviews</span>
+				</div>
+				<div>
+					<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+					<div class="elfsight-app-a117a2ea-265b-4136-9462-651cfff57ed6"></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="bg-white justify-center">
+			<div
+				class="max-w-2xl mx-auto py-1 px-4 sm:py-1 sm:px-6 lg:max-w-7xl lg:px-8"
+			>
+				<div
+					id="contact-us"
+					class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-4xl"
 				>
 					<span class="block text-green-600 xl:inline">Contact</span>
 					<span class="block xl:inline">Us</span>
 				</div>
+
 				<div
 					class="mt-1 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8"
 				>
@@ -231,28 +254,21 @@
 								<br />
 								<h3 class="font-medium text-xl text-gray-700">
 									<span aria-hidden="true" class="absolute inset-0"></span>
-									Phone Numbers
+									Call
 								</h3>
 								<p class="mt-2 text-sm text-gray-500">
-									X <br />
-									X
+									9895860646
+									<br />
+									9895534939
 								</p>
 								<br /><br />
 								<h3 class="font-medium text-xl text-gray-700">
 									<span aria-hidden="true" class="absolute inset-0"></span>
-									Email Address
+									Visit
 								</h3>
 								<p class="mt-2 text-sm text-gray-500">
-									X <br />
-									X
-								</p>
-								<br /><br />
-								<h3 class="font-medium text-xl text-gray-700">
-									<span aria-hidden="true" class="absolute inset-0"></span>
-									Address
-								</h3>
-								<p class="mt-2 text-sm text-gray-500">
-									Kerala Kathakali Centre - <br />
+									Kerala Kathakali Centre
+									<br />
 									KB Jacob Rd, Fort Nagar, Fort Kochi, Kochi, Kerala 682001
 								</p>
 							</div>
