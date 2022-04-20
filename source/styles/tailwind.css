@@ -1,0 +1,8 @@
+/** public/styles/tailwind.css **/
+
+/**
+ * Import TailwindCSS layers.
+ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
