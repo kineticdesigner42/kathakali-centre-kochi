@@ -1,5 +1,5 @@
-# Kerala Kathakali Centre Website
+# Kathakali Centre (Kochi) Website
 
-> https://kerala-kathakali-centre.web.app/
+> https://kathakali-centre-kochi.web.app/
 
-This is the source code for the Kerala Kathakali Centre's website.
+This is the source code for the Kathakali Centre (Kochi) website.

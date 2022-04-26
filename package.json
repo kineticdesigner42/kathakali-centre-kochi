@@ -1,7 +1,7 @@
 {
-	"name": "kerala-kathakali-centre",
+	"name": "kathakali-centre-kochi",
 	"version": "0.0.1",
-	"description": "The website for the Kerala Kathakali Centre, Kochi.",
+	"description": "The website for the Kathakali Centre, Kochi.",
 	"private": true,
 	"type": "module",
 	"scripts": {
@@ -11,7 +11,7 @@
 		"compile": "run-s build:*",
 		"lint": "prettier --check --ignore-path=.gitignore .",
 		"format": "prettier --write --ignore-path=.gitignore .",
-		"deploy": "firebase deploy --only hosting --project kerala-kathakali-centre",
+		"deploy": "firebase deploy --only hosting --project kathakali-centre-kochi",
 		"prepare": "run-s compile && husky install config/husky"
 	},
 	"engines": {
