@@ -7,7 +7,7 @@
 	"scripts": {
 		"preview": "serve source/",
 		"build:css": "tailwindcss --config config/tailwind.cjs --input source/styles/tailwind.css --output source/styles/main.css",
-		"start": "run-p 'build:* -- --watch' preview",
+		"start": "run-p \"build:* -- --watch\" preview",
 		"compile": "run-s build:*",
 		"lint": "prettier --check --ignore-path=.gitignore .",
 		"format": "prettier --write --ignore-path=.gitignore .",
