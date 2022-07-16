@@ -17,7 +17,7 @@ jobs:
       - name: Setup PNPM 7
         uses: pnpm/action-setup@v2.0.1
         with:
-          version: 7.0.0
+          version: llatest
       - name: Setup Node 18
         uses: actions/setup-node@v2
         with:
@@ -37,7 +37,7 @@ jobs:
       - name: Setup PNPM 7
         uses: pnpm/action-setup@v2.0.1
         with:
-          version: 7.0.0
+          version: latest
       - name: Setup Node 18
         uses: actions/setup-node@v2
         with:
@@ -58,7 +58,7 @@ jobs:
       - name: Setup PNPM 7
         uses: pnpm/action-setup@v2.0.1
         with:
-          version: 7.0.0
+          version: latest
       - name: Setup Node 18
         uses: actions/setup-node@v2
         with:
